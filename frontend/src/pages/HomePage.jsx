@@ -49,7 +49,7 @@ const HomePage = () => {
         {/* Brand Name - Script Font */}
         <h1 
           className="text-white text-8xl md:text-9xl mb-2"
-          style={{ fontFamily: "'Pinyon Script', cursive" }}
+          style={{ fontFamily: "'Great Vibes', cursive" }}
         >
           Anahata
         </h1>
