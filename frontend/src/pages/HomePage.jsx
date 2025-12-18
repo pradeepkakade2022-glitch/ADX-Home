@@ -45,7 +45,7 @@ const HomePage = () => {
       <main className="relative z-10 flex flex-col items-center justify-center min-h-[calc(100vh-120px)] px-8">
         {/* Brand Name - Script Font */}
         <h1 
-          className="text-white text-7xl md:text-8xl mb-2 tracking-wide"
+          className="text-white text-8xl md:text-9xl mb-2"
           style={{ fontFamily: "'Pinyon Script', cursive" }}
         >
           Anahata
