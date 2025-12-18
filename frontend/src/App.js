@@ -1,19 +1,13 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-const Home = () => {
-  return (
-    <div className="min-h-screen bg-white">
-    </div>
-  );
-};
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<HomePage />} />
         </Routes>
       </BrowserRouter>
     </div>
