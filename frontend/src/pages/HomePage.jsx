@@ -83,6 +83,47 @@ const HomePage = () => {
         </div>
         <span className="text-white text-xs tracking-[0.25em] uppercase">SCROLL DOWN</span>
       </div>
+
+      {/* Shop Section - Men's & Women's */}
+      <section className="absolute top-full left-0 right-0 z-10">
+        <div className="grid grid-cols-2 gap-1">
+          {/* Men's Section */}
+          <div className="relative h-[90vh] overflow-hidden">
+            <div 
+              className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+              style={{
+                backgroundImage: `url('https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=1935&auto=format&fit=crop')`,
+              }}
+            >
+              <div className="absolute inset-0 bg-gradient-to-b from-[#0a1628]/80 via-[#0a1628]/70 to-[#041225]/90" />
+            </div>
+            <div className="relative z-10 p-12 h-full flex flex-col">
+              <h3 className="text-white text-lg font-bold tracking-widest mb-6">LAUNCHING 2026</h3>
+              <button className="border border-white/60 text-white px-8 py-3 text-sm tracking-widest font-medium hover:bg-white hover:text-black transition-all duration-300 w-fit">
+                SHOP MEN'S
+              </button>
+            </div>
+          </div>
+
+          {/* Women's Section */}
+          <div className="relative h-[90vh] overflow-hidden">
+            <div 
+              className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+              style={{
+                backgroundImage: `url('https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?q=80&w=1980&auto=format&fit=crop')`,
+              }}
+            >
+              <div className="absolute inset-0 bg-gradient-to-b from-[#0a1628]/80 via-[#0a1628]/70 to-[#041225]/90" />
+            </div>
+            <div className="relative z-10 p-12 h-full flex flex-col">
+              <h3 className="text-white text-lg font-bold tracking-widest mb-6">LAUNCHING 2026</h3>
+              <button className="border border-white/60 text-white px-8 py-3 text-sm tracking-widest font-medium hover:bg-white hover:text-black transition-all duration-300 w-fit">
+                SHOP WOMEN'S
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
