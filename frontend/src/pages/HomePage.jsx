@@ -18,21 +18,23 @@ const HomePage = () => {
       </div>
 
       {/* Navigation Header */}
-      <header className="relative z-10 flex items-center justify-center px-8 py-6">
-        {/* Logo in Center with Navigation Links */}
-        <nav className="flex items-center gap-8">
+      <header className="relative z-10 flex items-center justify-between px-8 py-6">
+        {/* Empty div for spacing */}
+        <div className="flex-1" />
+        
+        {/* Logo - Center */}
+        <div className="border-2 border-white px-4 py-2 rounded-lg">
+          <span className="text-white font-bold text-xl tracking-wider">ADX</span>
+        </div>
+        
+        {/* Navigation Links - Right */}
+        <nav className="flex-1 flex items-center justify-end gap-10">
           <a href="#" className="text-white text-sm tracking-widest font-medium hover:text-cyan-400 transition-colors duration-300">
             HOME
           </a>
           <a href="#" className="text-white text-sm tracking-widest font-medium hover:text-cyan-400 transition-colors duration-300">
             LETTER FROM US TO YOU
           </a>
-          
-          {/* Logo - Center */}
-          <div className="border-2 border-white px-4 py-2 rounded-lg mx-6">
-            <span className="text-white font-bold text-xl tracking-wider">ADX</span>
-          </div>
-          
           <a href="#" className="text-white text-sm tracking-widest font-medium hover:text-cyan-400 transition-colors duration-300">
             ADX PROMISE
           </a>
