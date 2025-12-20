@@ -154,7 +154,7 @@ const HomePage = () => {
       </section>
 
       {/* Carousel Section */}
-      <section className="w-full bg-gray-100 py-8">
+      <section className="w-full bg-white py-4 px-4">
         <div className="relative w-full">
           {/* Left Arrow */}
           <button 
@@ -165,7 +165,7 @@ const HomePage = () => {
           </button>
 
           {/* Carousel Container */}
-          <div className="overflow-hidden px-4">
+          <div className="overflow-hidden">
             <div 
               className="flex gap-4 transition-transform duration-500 ease-in-out"
               style={{ transform: `translateX(-${currentIndex * (100 / visibleSlides)}%)` }}
