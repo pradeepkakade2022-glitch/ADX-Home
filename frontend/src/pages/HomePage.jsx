@@ -53,15 +53,15 @@ const HomePage = () => {
           <img 
             src="https://customer-assets.emergentagent.com/job_blank-home/artifacts/gbn9wxfo_logo%202.png"
             alt="Anahata Design X"
-            className="max-w-5xl w-full h-auto mb-2"
+            className="max-w-5xl w-full h-auto"
           />
           
           {/* Tagline - Solitreo font */}
           <h2 
-            className="text-[#0891b2] text-4xl md:text-5xl tracking-wide"
+            className="text-[#0891b2] text-4xl md:text-5xl tracking-wide uppercase -mt-4"
             style={{ fontFamily: "'Solitreo', cursive" }}
           >
-            Find your madness
+            FIND YOUR MADNESS
           </h2>
         </main>
 
