@@ -53,44 +53,36 @@ const LetterPage = () => {
       </header>
 
       {/* Main Content */}
-      <main className="relative z-10 flex flex-col items-center justify-center px-8 py-16">
-        <div className="max-w-3xl mx-auto text-center">
+      <main className="relative z-10 flex flex-col justify-center min-h-screen px-8 py-16">
+        <div className="max-w-2xl ml-auto mr-16 text-right">
           <h1 
-            className="text-white text-5xl md:text-6xl mb-12"
-            style={{ fontFamily: "'Solitreo', cursive" }}
+            className="text-[#0891b2] text-4xl md:text-5xl mb-8 font-bold"
+            style={{ fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif" }}
           >
-            Letter From Us To You
+            Find Your Madness
           </h1>
           
-          <div className="text-white/90 text-lg leading-relaxed space-y-6 text-left">
+          <div 
+            className="text-white/90 text-base leading-relaxed space-y-4"
+            style={{ fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif" }}
+          >
             <p>
-              Dear Friend,
-            </p>
-            <p>
-              Welcome to Anahata Design X. We are more than just a brand – we are a movement, 
-              a philosophy, and a commitment to excellence in craftsmanship.
-            </p>
-            <p>
-              Every piece we create tells a story. A story of passion, dedication, and the 
-              relentless pursuit of perfection. Our leather jackets are not just garments; 
-              they are statements of individuality, crafted for those who dare to be different.
+              Our father taped these words to our bathroom mirror when we were children. We grew up looking at them every single day for the next twenty-five years of our lives. At first, it simply meant chase what you love. But as we grew older, we understood that Find your madness means finding what makes you you — and that it can then express itself in many forms.
             </p>
             <p>
-              We believe in the power of authentic materials, timeless design, and the art of 
-              creating pieces that become part of your journey. Each stitch, each cut, each 
-              detail is a testament to our commitment to quality.
+              Founded by Urvi Kalra, ADX is a design house — the fruit of our madness. It is rooted in our father Vikas Kalra's legacy of consummate craftsmanship; he spent over three decades manufacturing leather & suede garments for houses such as Versace, Zadig & Voltaire, Massimo Dutti, and Mango. It is the medium through which our madness takes form — expressed through excellence in every article we meticulously design, curate, and craft for you.
             </p>
             <p>
-              As we prepare for our 2026 launch, we invite you to join us on this journey. 
-              Be part of a community that values craftsmanship, embraces individuality, and 
-              celebrates the madness within.
+              For others, it may express itself in a different pursuit — in creativity, in relationships, or simply in a more intentional way of living. We believe Madness is the key. Excellence — in any endeavor — is the conduit. A fully and intensely lived life is the result.
             </p>
-            <p className="text-[#0891b2] font-semibold mt-8">
-              Find Your Madness.
+            <p>
+              Anahata means unstruck sound — a paradox, a resonance already alive in the universe. Madness carries that same paradox — it may seem chaotic, but when tuned into, it makes your existence more graceful and the journey more enjoyable.
             </p>
-            <p className="mt-8">
-              With passion,<br />
-              <span className="text-[#0891b2]">The Anahata Design X Team</span>
+            <p>
+              ADX exists to nurture the journey of those who have found — or are still finding — their madness, and to inspire you to help others find theirs.
+            </p>
+            <p className="text-[#0891b2] font-semibold mt-6">
+              Find your madness. Welcome to Anahata Design X.
             </p>
           </div>
         </div>
