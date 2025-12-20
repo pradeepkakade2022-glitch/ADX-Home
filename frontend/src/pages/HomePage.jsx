@@ -9,9 +9,10 @@ const HomePage = () => {
       <section className="relative min-h-screen w-full overflow-hidden">
         {/* Background Image with Overlay */}
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 bg-contain bg-center bg-no-repeat"
           style={{
             backgroundImage: `url('https://customer-assets.emergentagent.com/job_blank-home/artifacts/byoc6d5m_New%20Project.jpg')`,
+            backgroundColor: '#0a1628',
           }}
         >
           {/* Dark gradient overlay */}
