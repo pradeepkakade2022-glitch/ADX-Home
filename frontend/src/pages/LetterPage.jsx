@@ -97,7 +97,7 @@ const LetterPage = () => {
       </main>
 
       {/* Footer */}
-      <footer className="w-full bg-black py-6 mt-auto">
+      <footer className="relative z-10 w-full bg-black py-6">
         <p className="text-white text-center text-sm tracking-wide">
           Copyright © 2025 Anahata Design X, All Rights Reserved.
         </p>
