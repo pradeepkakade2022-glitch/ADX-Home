@@ -10,7 +10,7 @@ const HomePage = () => {
         <button className="bg-white text-black font-bold px-10 py-2.5 text-sm tracking-wider hover:bg-gray-100 transition-colors duration-300 min-w-[160px]">
           SIGN UP
         </button>
-        <p className="text-white text-xs mt-1.5 tracking-widest">FOR EARLY ACCESS</p>
+        <p className="text-white text-xs mt-1.5 tracking-widest text-center">FOR EARLY ACCESS</p>
       </div>
 
       {/* Hero Section */}
