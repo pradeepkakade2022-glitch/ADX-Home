@@ -65,13 +65,7 @@ const HomePage = () => {
           </h2>
         </main>
 
-        {/* Sign Up Button - Bottom Left */}
-        <div className="absolute bottom-16 left-8 z-10">
-          <button className="bg-white text-black font-bold px-8 py-4 text-lg tracking-wider hover:bg-gray-100 transition-colors duration-300">
-            SIGN UP
-          </button>
-          <p className="text-white text-sm mt-2 tracking-widest">FOR EARLY ACCESS</p>
-        </div>
+        {/* Sign Up Button - Bottom Left - Removed from here, now fixed at page level */}
 
         {/* Scroll Down Indicator - Bottom Center */}
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2">
