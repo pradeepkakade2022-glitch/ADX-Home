@@ -5,7 +5,18 @@ const fontFamily = "'Helvetica Neue', Helvetica, Arial, sans-serif";
 
 const LetterPage = () => {
   return (
-    <div className="w-full min-h-screen bg-[#0a1628]" style={{ fontFamily }}>
+    <div className="w-full min-h-screen relative" style={{ fontFamily }}>
+      {/* Full Background Image */}
+      <div 
+        className="fixed inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `url('https://customer-assets.emergentagent.com/job_blank-home/artifacts/dzq9llwa_2nd%20page%20full%20bg.jpg')`,
+        }}
+      >
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-black/40" />
+      </div>
+
       {/* Fixed Sign Up Button - Bottom Left */}
       <div className="fixed bottom-12 left-8 z-50">
         <button className="bg-white text-black font-bold px-10 py-2.5 text-sm tracking-wider hover:bg-gray-100 transition-colors duration-300 min-w-[160px]">
