@@ -173,7 +173,7 @@ const HomePage = () => {
               {carouselImages.map((image, index) => (
                 <div 
                   key={index}
-                  className="flex-shrink-0 w-1/3 h-[33vh]"
+                  className="flex-shrink-0 w-1/3 h-[43vh]"
                 >
                   <img 
                     src={image}
