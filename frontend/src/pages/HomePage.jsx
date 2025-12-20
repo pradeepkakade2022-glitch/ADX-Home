@@ -152,6 +152,48 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+
+      {/* Carousel Section */}
+      <section className="w-full bg-gray-100 py-8 px-4">
+        <div className="relative max-w-7xl mx-auto">
+          {/* Left Arrow */}
+          <button 
+            onClick={prevSlide}
+            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-gray-200 hover:bg-gray-300 p-3 transition-colors duration-300"
+          >
+            <ChevronLeft className="w-6 h-6 text-gray-600" />
+          </button>
+
+          {/* Carousel Container */}
+          <div className="overflow-hidden mx-12">
+            <div 
+              className="flex gap-4 transition-transform duration-500 ease-in-out"
+              style={{ transform: `translateX(-${currentIndex * (100 / visibleSlides)}%)` }}
+            >
+              {carouselImages.map((image, index) => (
+                <div 
+                  key={index}
+                  className="flex-shrink-0 w-1/3 aspect-square"
+                >
+                  <img 
+                    src={image}
+                    alt={`Leather detail ${index + 1}`}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Right Arrow */}
+          <button 
+            onClick={nextSlide}
+            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-gray-200 hover:bg-gray-300 p-3 transition-colors duration-300"
+          >
+            <ChevronRight className="w-6 h-6 text-gray-600" />
+          </button>
+        </div>
+      </section>
     </div>
   );
 };
