@@ -8,13 +8,14 @@ const LetterPage = () => {
     <div className="w-full min-h-screen relative" style={{ fontFamily }}>
       {/* Full Background Image */}
       <div 
-        className="fixed inset-0 bg-cover bg-center bg-no-repeat"
+        className="fixed inset-0 bg-contain bg-center bg-no-repeat"
         style={{
           backgroundImage: `url('https://customer-assets.emergentagent.com/job_blank-home/artifacts/dzq9llwa_2nd%20page%20full%20bg.jpg')`,
+          backgroundColor: '#0a1628',
         }}
       >
         {/* Dark overlay for text readability */}
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-black/30" />
       </div>
 
       {/* Fixed Sign Up Button - Bottom Left */}
