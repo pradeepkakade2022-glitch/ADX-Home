@@ -46,27 +46,13 @@ const HomePage = () => {
         </header>
 
         {/* Main Content */}
-        <main className="relative z-10 flex flex-col items-center justify-center min-h-[calc(100vh-120px)] px-8">
-          {/* Brand Name - Script Font */}
-          <h1 
-            className="text-white text-8xl md:text-9xl mb-2"
-            style={{ fontFamily: "'Allura', cursive" }}
-          >
-            Anahata
-          </h1>
-          
-          {/* Design X - Italic */}
-          <p 
-            className="text-white text-2xl md:text-3xl italic mb-8 tracking-wide"
-            style={{ fontFamily: "'Cormorant Garamond', serif" }}
-          >
-            Design X
-          </p>
-          
-          {/* Tagline */}
-          <h2 className="text-cyan-400 text-3xl md:text-4xl font-bold tracking-[0.3em] uppercase mb-16">
-            FIND YOUR MADNESS
-          </h2>
+        <main className="relative z-10 flex flex-col items-center justify-center min-h-[calc(100vh-180px)] px-8 -mt-16">
+          {/* Logo Image */}
+          <img 
+            src="https://customer-assets.emergentagent.com/job_blank-home/artifacts/ohp3mmq5_New%20Project.png"
+            alt="Anahata Design X - Find Your Madness"
+            className="max-w-xl w-full h-auto"
+          />
         </main>
 
         {/* Sign Up Button - Bottom Left */}
