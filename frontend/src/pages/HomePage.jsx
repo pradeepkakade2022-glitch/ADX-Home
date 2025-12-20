@@ -5,6 +5,14 @@ const fontFamily = "'Helvetica Neue', Helvetica, Arial, sans-serif";
 const HomePage = () => {
   return (
     <div className="w-full" style={{ fontFamily }}>
+      {/* Fixed Sign Up Button - Bottom Left */}
+      <div className="fixed bottom-12 left-8 z-50">
+        <button className="bg-white text-black font-bold px-6 py-2.5 text-sm tracking-wider hover:bg-gray-100 transition-colors duration-300">
+          SIGN UP
+        </button>
+        <p className="text-white text-xs mt-1.5 tracking-widest">FOR EARLY ACCESS</p>
+      </div>
+
       {/* Hero Section */}
       <section className="relative min-h-screen w-full overflow-hidden">
         {/* Background Image with Overlay */}
