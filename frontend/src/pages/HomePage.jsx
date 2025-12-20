@@ -48,7 +48,7 @@ const HomePage = () => {
         </header>
 
         {/* Main Content */}
-        <main className="relative z-10 flex flex-col items-center justify-center min-h-[calc(100vh-180px)] px-8 -mt-28">
+        <main className="relative z-10 flex flex-col items-center justify-center min-h-[calc(100vh-180px)] px-8 -mt-48">
           {/* Logo Image */}
           <img 
             src="https://customer-assets.emergentagent.com/job_blank-home/artifacts/gbn9wxfo_logo%202.png"
