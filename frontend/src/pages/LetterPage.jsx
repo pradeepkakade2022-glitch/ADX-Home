@@ -5,10 +5,10 @@ const fontFamily = "'Helvetica Neue', Helvetica, Arial, sans-serif";
 
 const LetterPage = () => {
   return (
-    <div className="w-full h-screen flex flex-col relative" style={{ fontFamily }}>
+    <div className="w-full min-h-screen relative" style={{ fontFamily }}>
       {/* Full Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="fixed inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `url('https://customer-assets.emergentagent.com/job_blank-home/artifacts/dzq9llwa_2nd%20page%20full%20bg.jpg')`,
         }}
