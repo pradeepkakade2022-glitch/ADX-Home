@@ -1,8 +1,10 @@
 import React from 'react';
 
+const fontFamily = "'Helvetica Neue', Helvetica, Arial, sans-serif";
+
 const HomePage = () => {
   return (
-    <div className="w-full">
+    <div className="w-full" style={{ fontFamily }}>
       {/* Hero Section */}
       <section className="relative min-h-screen w-full overflow-hidden">
         {/* Background Image with Overlay */}
@@ -51,15 +53,15 @@ const HomePage = () => {
           <img 
             src="https://customer-assets.emergentagent.com/job_blank-home/artifacts/gbn9wxfo_logo%202.png"
             alt="Anahata Design X"
-            className="max-w-5xl w-full h-auto mb-6"
+            className="max-w-5xl w-full h-auto mb-2"
           />
           
-          {/* Tagline */}
+          {/* Tagline - Solitreo font */}
           <h2 
-            className="text-[#0891b2] text-3xl md:text-4xl font-bold tracking-wide"
-            style={{ fontFamily: "'Montserrat', sans-serif", fontStyle: 'italic' }}
+            className="text-[#0891b2] text-4xl md:text-5xl tracking-wide"
+            style={{ fontFamily: "'Solitreo', cursive" }}
           >
-            FIND YOUR MADNESS
+            Find your madness
           </h2>
         </main>
 
