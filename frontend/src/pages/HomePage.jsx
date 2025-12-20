@@ -154,7 +154,7 @@ const HomePage = () => {
       </section>
 
       {/* Carousel Section */}
-      <section className="w-full bg-white py-4 px-4">
+      <section className="w-full bg-white pt-2 pb-4 px-4">
         <div className="relative w-full">
           {/* Left Arrow */}
           <button 
