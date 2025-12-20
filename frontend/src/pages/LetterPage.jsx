@@ -26,7 +26,7 @@ const LetterPage = () => {
       </div>
 
       {/* Navigation Header */}
-      <header className="relative z-10 flex items-center justify-between px-8 py-6">
+      <header className="relative z-20 flex items-center justify-between px-8 py-6">
         {/* Empty div for spacing */}
         <div className="flex-1" />
         
