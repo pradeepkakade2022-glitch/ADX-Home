@@ -194,6 +194,13 @@ const HomePage = () => {
           </button>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="w-full bg-black py-6">
+        <p className="text-white text-center text-sm tracking-wide">
+          Copyright © 2025 Anahata Design X, All Rights Reserved.
+        </p>
+      </footer>
     </div>
   );
 };
