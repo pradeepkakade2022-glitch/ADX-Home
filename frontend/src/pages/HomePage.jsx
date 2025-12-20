@@ -51,7 +51,7 @@ const HomePage = () => {
           <img 
             src="https://customer-assets.emergentagent.com/job_blank-home/artifacts/gbn9wxfo_logo%202.png"
             alt="Anahata Design X"
-            className="max-w-md w-full h-auto mb-6"
+            className="max-w-2xl w-full h-auto mb-6"
           />
           
           {/* Tagline */}
