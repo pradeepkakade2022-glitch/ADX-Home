@@ -154,18 +154,18 @@ const HomePage = () => {
       </section>
 
       {/* Carousel Section */}
-      <section className="w-full bg-gray-100 py-8 px-4">
-        <div className="relative max-w-7xl mx-auto">
+      <section className="w-full bg-gray-100 py-8">
+        <div className="relative w-full">
           {/* Left Arrow */}
           <button 
             onClick={prevSlide}
-            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-gray-200 hover:bg-gray-300 p-3 transition-colors duration-300"
+            className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-gray-200/80 hover:bg-gray-300 w-10 h-10 rounded-full flex items-center justify-center transition-colors duration-300"
           >
-            <ChevronLeft className="w-6 h-6 text-gray-600" />
+            <ChevronLeft className="w-5 h-5 text-gray-600" />
           </button>
 
           {/* Carousel Container */}
-          <div className="overflow-hidden mx-12">
+          <div className="overflow-hidden px-4">
             <div 
               className="flex gap-4 transition-transform duration-500 ease-in-out"
               style={{ transform: `translateX(-${currentIndex * (100 / visibleSlides)}%)` }}
@@ -188,9 +188,9 @@ const HomePage = () => {
           {/* Right Arrow */}
           <button 
             onClick={nextSlide}
-            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-gray-200 hover:bg-gray-300 p-3 transition-colors duration-300"
+            className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-gray-200/80 hover:bg-gray-300 w-10 h-10 rounded-full flex items-center justify-center transition-colors duration-300"
           >
-            <ChevronRight className="w-6 h-6 text-gray-600" />
+            <ChevronRight className="w-5 h-5 text-gray-600" />
           </button>
         </div>
       </section>
