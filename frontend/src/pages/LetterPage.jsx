@@ -53,16 +53,16 @@ const LetterPage = () => {
       </header>
 
       {/* Main Content */}
-      <main className="relative z-10 flex flex-col items-center justify-center px-8 py-16">
+      <main className="relative z-10 flex-1 flex flex-col items-center justify-center px-8">
         <div className="max-w-3xl mx-auto text-center">
           <h1 
-            className="text-white text-5xl md:text-6xl mb-12"
+            className="text-white text-4xl md:text-5xl mb-8"
             style={{ fontFamily: "'Solitreo', cursive" }}
           >
             Letter From Us To You
           </h1>
           
-          <div className="text-white/90 text-lg leading-relaxed space-y-6 text-left">
+          <div className="text-white/90 text-base leading-relaxed space-y-4 text-left">
             <p>
               Dear Friend,
             </p>
@@ -76,21 +76,15 @@ const LetterPage = () => {
               they are statements of individuality, crafted for those who dare to be different.
             </p>
             <p>
-              We believe in the power of authentic materials, timeless design, and the art of 
-              creating pieces that become part of your journey. Each stitch, each cut, each 
-              detail is a testament to our commitment to quality.
-            </p>
-            <p>
               As we prepare for our 2026 launch, we invite you to join us on this journey. 
               Be part of a community that values craftsmanship, embraces individuality, and 
               celebrates the madness within.
             </p>
-            <p className="text-[#0891b2] font-semibold mt-8">
+            <p className="text-[#0891b2] font-semibold mt-4">
               Find Your Madness.
             </p>
-            <p className="mt-8">
-              With passion,<br />
-              <span className="text-[#0891b2]">The Anahata Design X Team</span>
+            <p className="mt-4">
+              With passion, <span className="text-[#0891b2]">The Anahata Design X Team</span>
             </p>
           </div>
         </div>
