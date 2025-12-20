@@ -51,7 +51,8 @@ const HomePage = () => {
           <img 
             src="https://customer-assets.emergentagent.com/job_blank-home/artifacts/ohp3mmq5_New%20Project.png"
             alt="Anahata Design X - Find Your Madness"
-            className="max-w-2xl w-full h-auto mix-blend-screen"
+            className="max-w-2xl w-full h-auto invert brightness-0 invert-0"
+            style={{ filter: 'invert(1) brightness(2)' }}
           />
         </main>
 
