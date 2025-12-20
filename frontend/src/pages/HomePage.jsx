@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const fontFamily = "'Helvetica Neue', Helvetica, Arial, sans-serif";
 
