@@ -88,7 +88,7 @@ const HomePage = () => {
       <section className="w-full bg-white py-4 px-4">
         <div className="grid grid-cols-2 gap-4">
           {/* Men's Section */}
-          <div className="relative h-[90vh] overflow-hidden">
+          <div className="relative h-[54vh] overflow-hidden">
             <div 
               className="absolute inset-0 bg-contain bg-center bg-no-repeat"
               style={{
@@ -107,7 +107,7 @@ const HomePage = () => {
           </div>
 
           {/* Women's Section */}
-          <div className="relative h-[90vh] overflow-hidden">
+          <div className="relative h-[54vh] overflow-hidden">
             <div 
               className="absolute inset-0 bg-cover bg-center bg-no-repeat"
               style={{
