@@ -14,6 +14,21 @@ const carouselImages = [
 ];
 
 const HomePage = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const visibleSlides = 3;
+
+  const nextSlide = () => {
+    setCurrentIndex((prev) => 
+      prev + visibleSlides >= carouselImages.length ? 0 : prev + 1
+    );
+  };
+
+  const prevSlide = () => {
+    setCurrentIndex((prev) => 
+      prev === 0 ? carouselImages.length - visibleSlides : prev - 1
+    );
+  };
+
   return (
     <div className="w-full" style={{ fontFamily }}>
       {/* Fixed Sign Up Button - Bottom Left */}
