@@ -111,7 +111,7 @@ const HomePage = () => {
       </section>
 
       {/* Shop Section - Men's & Women's */}
-      <section className="w-full bg-white py-4 px-4">
+      <section className="w-full bg-white pt-4 pb-2 px-4">
         <div className="grid grid-cols-2 gap-4">
           {/* Men's Section */}
           <div className="relative h-[54vh] overflow-hidden">
