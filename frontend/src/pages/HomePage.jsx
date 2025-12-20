@@ -58,7 +58,7 @@ const HomePage = () => {
           
           {/* Tagline - Solitreo font */}
           <h2 
-            className="text-[#0891b2] text-4xl md:text-5xl tracking-wide uppercase -mt-4"
+            className="text-[#0891b2] text-4xl md:text-5xl tracking-wide uppercase -mt-16"
             style={{ fontFamily: "'Solitreo', cursive" }}
           >
             FIND YOUR MADNESS
