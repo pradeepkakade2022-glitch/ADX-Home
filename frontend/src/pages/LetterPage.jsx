@@ -8,10 +8,9 @@ const LetterPage = () => {
     <div className="w-full min-h-screen relative" style={{ fontFamily }}>
       {/* Full Background Image */}
       <div 
-        className="fixed inset-0 bg-contain bg-center bg-no-repeat"
+        className="fixed inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('https://customer-assets.emergentagent.com/job_blank-home/artifacts/dzq9llwa_2nd%20page%20full%20bg.jpg')`,
-          backgroundColor: '#0a1628',
+          backgroundImage: `url('https://customer-assets.emergentagent.com/job_blank-home/artifacts/9fen9fay_bg%20image%20p2-1.png')`,
         }}
       >
         {/* Dark overlay for text readability */}
