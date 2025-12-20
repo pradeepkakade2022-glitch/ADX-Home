@@ -109,12 +109,13 @@ const HomePage = () => {
           {/* Women's Section */}
           <div className="relative h-[54vh] overflow-hidden">
             <div 
-              className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+              className="absolute inset-0 bg-contain bg-center bg-no-repeat"
               style={{
-                backgroundImage: `url('https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?q=80&w=1980&auto=format&fit=crop')`,
+                backgroundImage: `url('https://customer-assets.emergentagent.com/job_blank-home/artifacts/rskirn8r_Shop%20Womens.jpg')`,
+                backgroundColor: '#0a1628',
               }}
             >
-              <div className="absolute inset-0 bg-gradient-to-b from-[#0a1628]/80 via-[#0a1628]/70 to-[#041225]/90" />
+              <div className="absolute inset-0 bg-gradient-to-b from-[#0a1628]/60 via-transparent to-[#041225]/70" />
             </div>
             <div className="relative z-10 p-12 h-full flex flex-col">
               <h3 className="text-white text-lg font-bold tracking-widest mb-6">LAUNCHING 2026</h3>
