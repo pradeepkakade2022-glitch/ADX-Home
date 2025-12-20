@@ -9,13 +9,13 @@ const HomePage = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=1935&auto=format&fit=crop')`,
+            backgroundImage: `url('https://customer-assets.emergentagent.com/job_blank-home/artifacts/byoc6d5m_New%20Project.jpg')`,
           }}
         >
           {/* Dark gradient overlay */}
-          <div className="absolute inset-0 bg-gradient-to-b from-[#0a1628]/90 via-[#0a1628]/80 to-[#0a1628]/95" />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#0a1628]/70 via-[#0a1628]/50 to-[#0a1628]/80" />
           {/* Blue tint overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#041225] via-transparent to-[#0a1a35]/60" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#041225]/80 via-transparent to-[#0a1a35]/40" />
         </div>
 
         {/* Navigation Header */}
