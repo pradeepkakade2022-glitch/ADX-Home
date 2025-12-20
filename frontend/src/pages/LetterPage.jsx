@@ -54,16 +54,16 @@ const LetterPage = () => {
 
       {/* Main Content */}
       <main className="relative z-10 flex flex-col justify-center min-h-screen px-8 py-16">
-        <div className="max-w-2xl ml-auto mr-16 text-right">
+        <div className="max-w-2xl ml-auto mr-16">
           <h1 
-            className="text-[#0891b2] text-4xl md:text-5xl mb-8 font-bold"
+            className="text-[#0891b2] text-4xl md:text-5xl mb-8 font-bold uppercase tracking-wide"
             style={{ fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif" }}
           >
             Find Your Madness
           </h1>
           
           <div 
-            className="text-white/90 text-base leading-relaxed space-y-4"
+            className="text-white/90 text-base leading-relaxed space-y-4 text-left"
             style={{ fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif" }}
           >
             <p>
