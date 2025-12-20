@@ -67,12 +67,12 @@ const HomePage = () => {
           
           {/* Navigation Links - Right */}
           <nav className="flex-1 flex items-center justify-end gap-10">
-            <a href="#" className="text-white text-sm tracking-widest font-medium hover:text-cyan-400 transition-colors duration-300">
+            <Link to="/" className="text-white text-sm tracking-widest font-medium hover:text-cyan-400 transition-colors duration-300">
               HOME
-            </a>
-            <a href="#" className="text-white text-sm tracking-widest font-medium hover:text-cyan-400 transition-colors duration-300">
+            </Link>
+            <Link to="/letter" className="text-white text-sm tracking-widest font-medium hover:text-cyan-400 transition-colors duration-300">
               LETTER FROM US TO YOU
-            </a>
+            </Link>
             <a href="#" className="text-white text-sm tracking-widest font-medium hover:text-cyan-400 transition-colors duration-300">
               ADX PROMISE
             </a>
