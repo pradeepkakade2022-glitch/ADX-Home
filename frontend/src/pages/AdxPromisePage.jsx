@@ -49,6 +49,12 @@ const AdxPromisePage = () => {
         >
           We don't outsource excellence - we build it.
         </h1>
+        <p 
+          className="text-white/90 text-center max-w-4xl mt-6 leading-relaxed"
+          style={{ fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif", fontSize: '18px' }}
+        >
+          At Anahata Design X, we own our tannery and manufacturing facility, giving us complete control of our supply chain — from raw hide to finished creation. It means every step, from sourcing to craftsmanship, is held to the same uncompromising standard of ethics, sustainability, and design precision.
+        </p>
       </main>
 
       {/* Footer */}
