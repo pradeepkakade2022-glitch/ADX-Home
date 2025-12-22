@@ -61,34 +61,34 @@ const AdxPromisePage = () => {
           {/* Column 1 */}
           <div className="flex flex-col items-center justify-center py-12 px-6 border-r border-white/20">
             <h3 
-              className="text-white text-lg font-bold uppercase tracking-wider text-center mb-6"
+              className="text-white text-lg font-bold uppercase tracking-wider text-center mb-4"
               style={{ fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif" }}
             >
-              From Origin<br />To Outcome
+              From Origin To Outcome
             </h3>
-            <div className="text-white text-2xl">↑</div>
+            <div className="text-white text-sm">▲</div>
           </div>
 
           {/* Column 2 */}
           <div className="flex flex-col items-center justify-center py-12 px-6 border-r border-white/20">
             <h3 
-              className="text-white text-lg font-bold uppercase tracking-wider text-center mb-6"
+              className="text-white text-lg font-bold uppercase tracking-wider text-center mb-4"
               style={{ fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif" }}
             >
               Why Vertical<br />Integration Matters
             </h3>
-            <div className="text-white text-2xl">↑</div>
+            <div className="text-white text-sm">▲</div>
           </div>
 
           {/* Column 3 */}
           <div className="flex flex-col items-center justify-center py-12 px-6">
             <h3 
-              className="text-white text-lg font-bold uppercase tracking-wider text-center mb-6"
+              className="text-white text-lg font-bold uppercase tracking-wider text-center mb-4"
               style={{ fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif" }}
             >
-              The ADX<br />Promise
+              The ADX Promise
             </h3>
-            <div className="text-white text-2xl">↑</div>
+            <div className="text-white text-sm">▲</div>
           </div>
         </div>
       </main>
