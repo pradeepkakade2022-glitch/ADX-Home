@@ -42,14 +42,13 @@ const AdxPromisePage = () => {
       </header>
 
       {/* Main Content */}
-      <main className="relative z-10 flex flex-col items-center justify-center min-h-[calc(100vh-100px)] px-8">
+      <main className="relative z-10 flex flex-col items-center justify-start min-h-[calc(100vh-100px)] px-8 pt-16">
         <h1 
-          className="text-[#0891b2] text-4xl md:text-5xl font-bold uppercase tracking-wide"
-          style={{ fontFamily }}
+          className="text-white text-2xl md:text-3xl font-bold uppercase tracking-wide text-center"
+          style={{ fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif" }}
         >
-          ADX Promise
+          We don't outsource excellence - we build it.
         </h1>
-        <p className="text-white/60 text-lg mt-4">Coming Soon</p>
       </main>
 
       {/* Footer */}
