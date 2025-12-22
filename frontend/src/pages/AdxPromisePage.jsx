@@ -59,15 +59,15 @@ const AdxPromisePage = () => {
         {/* Three Columns Section */}
         <div className="w-full max-w-6xl mt-20 grid grid-cols-3 gap-0">
           {/* Column 1 */}
-          <div className="flex flex-col items-center justify-center py-12 px-6 border-r border-white/20">
+          <Link to="/origin-outcome" className="flex flex-col items-center justify-center py-12 px-6 border-r border-white/20 hover:bg-white/5 transition-colors duration-300 cursor-pointer">
             <h3 
-              className="text-white text-lg font-bold uppercase tracking-wider text-center mb-4"
+              className="text-white text-lg font-bold uppercase tracking-wider text-center mb-4 hover:text-cyan-400 transition-colors duration-300"
               style={{ fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif" }}
             >
               From Origin To Outcome
             </h3>
             <div className="text-white text-sm">▲</div>
-          </div>
+          </Link>
 
           {/* Column 2 */}
           <div className="flex flex-col items-center justify-center py-12 px-6 border-r border-white/20">
