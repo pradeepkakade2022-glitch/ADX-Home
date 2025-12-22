@@ -73,9 +73,9 @@ const HomePage = () => {
             <Link to="/letter" className="text-white text-sm tracking-widest font-medium hover:text-cyan-400 transition-colors duration-300">
               LETTER FROM US TO YOU
             </Link>
-            <a href="#" className="text-white text-sm tracking-widest font-medium hover:text-cyan-400 transition-colors duration-300">
+            <Link to="/adx-promise" className="text-white text-sm tracking-widest font-medium hover:text-cyan-400 transition-colors duration-300">
               ADX PROMISE
-            </a>
+            </Link>
             <a href="#" className="text-white text-sm tracking-widest font-medium hover:text-cyan-400 transition-colors duration-300">
               CONTACT US
             </a>
