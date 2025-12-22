@@ -55,6 +55,42 @@ const AdxPromisePage = () => {
         >
           At Anahata Design X, we own our tannery and manufacturing facility, giving us complete control of our supply chain — from raw hide to finished creation. It means every step, from sourcing to craftsmanship, is held to the same uncompromising standard of ethics, sustainability, and design precision.
         </p>
+
+        {/* Three Columns Section */}
+        <div className="w-full max-w-6xl mt-20 grid grid-cols-3 gap-0">
+          {/* Column 1 */}
+          <div className="flex flex-col items-center justify-center py-12 px-6 border-r border-white/20">
+            <h3 
+              className="text-white text-lg font-bold uppercase tracking-wider text-center mb-6"
+              style={{ fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif" }}
+            >
+              From Origin<br />To Outcome
+            </h3>
+            <div className="text-white text-2xl">↑</div>
+          </div>
+
+          {/* Column 2 */}
+          <div className="flex flex-col items-center justify-center py-12 px-6 border-r border-white/20">
+            <h3 
+              className="text-white text-lg font-bold uppercase tracking-wider text-center mb-6"
+              style={{ fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif" }}
+            >
+              Why Vertical<br />Integration Matters
+            </h3>
+            <div className="text-white text-2xl">↑</div>
+          </div>
+
+          {/* Column 3 */}
+          <div className="flex flex-col items-center justify-center py-12 px-6">
+            <h3 
+              className="text-white text-lg font-bold uppercase tracking-wider text-center mb-6"
+              style={{ fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif" }}
+            >
+              The ADX<br />Promise
+            </h3>
+            <div className="text-white text-2xl">↑</div>
+          </div>
+        </div>
       </main>
 
       {/* Footer */}
