@@ -260,7 +260,7 @@ const HomePage = () => {
               <div className="grid grid-cols-2 gap-4">
                 {/* Men's Section */}
                 <motion.div 
-                  className="relative h-[40vh] overflow-hidden"
+                  className="relative h-[50vh] overflow-hidden"
                   whileHover={{ scale: 1.02 }}
                   transition={{ duration: 0.3 }}
                 >
